@@ -17,14 +17,14 @@ setup.py 文件是安装 Python 包的核心文件。它包含了包的元数据
 from setuptools import setup, find_packages
 
 setup(
-    name="my_tool",               # 包的名字
+    name="editable-pip-demo",               # 包的名字
     version="0.1.0",              # 版本号
     author="Your Name",           # 作者名字
     author_email="your_email@example.com",  # 作者邮件
     description="A description of your data processing tool",  # 简要描述
     long_description=open('README.md').read(),  # 从 README.md 文件读取详细描述
     long_description_content_type="text/markdown",  # markdown 格式
-    url="https://github.com/yourusername/my_tool",  # 项目 URL
+    url="https://github.com/yourusername/editable-pip-demo",  # 项目 URL
     packages=find_packages(),  # 自动查找所有子包
     install_requires=[          # 外部依赖
         # 列出需要安装的依赖包
