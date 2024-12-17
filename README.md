@@ -86,11 +86,11 @@ pip install -e .
   ```
   上传时，你需要在 PyPI 上注册一个账户并提供你的账户信息。
 
-9. 测试安装
+7. 测试安装
 
 安装完包后，可以在 Python 环境中导入并使用它：
 ```python
-import my_tool
+import editable-pip-demo
 ```
 如果没有任何问题，说明安装成功。
 
